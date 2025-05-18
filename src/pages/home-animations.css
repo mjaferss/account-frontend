@@ -1,0 +1,23 @@
+/* home-animations.css */
+
+.section-spacing {
+  margin-bottom: 40px;
+}
+
+.hero-section {
+  background: linear-gradient(120deg, #1976d2 60%, #42a5f5 100%);
+  position: relative;
+}
+
+@keyframes bounceBtn {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px) scale(1.05); }
+}
+
+.section-animate {
+  transition: box-shadow 0.4s, transform 0.4s;
+}
+.section-animate:hover {
+  box-shadow: 0 8px 24px 0 rgba(25, 118, 210, 0.15);
+  transform: translateY(-6px) scale(1.03);
+}
